@@ -8,7 +8,7 @@ namespace Prova002
 {
     public interface IDescontoStrategy
     {
-        decimal CalcularDesconto(Pedido pedido); 
+        decimal CalcularDesconto(Pedido pedido);
     }
 
 }
