@@ -11,7 +11,7 @@ namespace Prova002
         private readonly IDescontoStrategy _descontoStrategy; 
         private readonly ILogService _log;                    
 
-        // Injeção de dependências via construtor
+     
         public PedidoService(IDescontoStrategy descontoStrategy, ILogService log)
         {
             _descontoStrategy = descontoStrategy; 

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Prova002
 { 
-    //interface para a log
+
     public interface ILogService
     {
         void Registrar(string mensagem); 
